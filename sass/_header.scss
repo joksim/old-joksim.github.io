@@ -35,6 +35,18 @@ h3.profile-title {
 	font-family: 'robotobold';
 }
 
+.profile-description {
+  a {
+    color: lighten($dark-bg, 30%);
+    text-decoration: underline;
+    text-decoration-style: solid;
+
+    &:hover {
+      color: darken($dark-bg, 20%);
+    }
+  }
+}
+
 
 .main-navigation {
 	margin: 30px 0;
